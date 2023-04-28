@@ -1,0 +1,64 @@
+.wrapperCard{
+    width: 320px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.wrapperCard:hover{
+    opacity: 0.7;
+}
+
+.btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: rgb(229, 2, 2);
+    cursor: pointer;
+}
+
+.wrapperText{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.339);
+    width: 80%;
+    height: 60px;
+    bottom: 0px;
+    justify-content: space-evenly;
+    border-radius: 0px 12px 0px 8px;
+    letter-spacing: 3px;
+    color: white;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+.name{
+    font-size: 22px;
+    padding: 5px 8px 5px 5px;
+    margin: 0;
+    background-color: rgb(137, 31, 139);
+    position: absolute;
+    top: -15px;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2{
+    font-size: 14px;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}

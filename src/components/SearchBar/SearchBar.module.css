@@ -1,0 +1,40 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.484);
+}
+.wrapperSearch{
+    width: 320px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border-radius: 8px;
+    margin: 0 20px 0px 20px;
+}
+.input{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+.input:focus {
+    outline: none;
+    padding-left: 10px;
+  }
+
+.btn{
+    position: absolute;
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+    right: 0;
+    height: 100%;
+    color: blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+}
