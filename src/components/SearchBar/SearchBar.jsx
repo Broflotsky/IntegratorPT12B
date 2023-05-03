@@ -11,23 +11,21 @@ export default function SearchBar(props) {
   };
 
   return (
-    <div className={styles.navbar}>
-      <div className={styles.wrapperSearch}>
-        <input
-          className={styles.input}
-          type="search"
-          onChange={handleChange}
-          value={id}
-        />
-        <button
-          className={styles.btn}
-          onClick={() => {
-            onSearch(id);
-          }}
-        >
-          Search
-        </button>
-      </div>
+    <div className={styles.wrapperSearch}>
+      <input
+        className={styles.input}
+        type="search"
+        onChange={handleChange}
+        value={id}
+      />
+      <button
+        className={styles.btn}
+        onClick={() => {
+          onSearch(id);
+        }}
+      >
+        Search
+      </button>
     </div>
   );
 }

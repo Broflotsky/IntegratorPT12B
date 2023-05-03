@@ -16,7 +16,7 @@ export default function Card(props) {
       </button>
       <img src={image} alt="character" />
       <div className={styles.wrapperText}>
-        <Link to={`detail/${id}`}>
+        <Link strict to={`/detail/${id}`}>
           <h1 className={styles.name}>{name}</h1>
         </Link>
         <div className={styles.details}>
