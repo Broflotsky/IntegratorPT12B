@@ -11,9 +11,10 @@ import Form from './components/Form/Form'
 // Router-Dom
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import Detail from './components/Detail/Detail';
+import Favorites from './components/Favorites/Favorites';
 
-const email = 'ejemplo@gmail.com';
-const password = 'password12';
+const email = '';
+const password = '';
 
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
             <Route path={'/home'} element={<Cards characters={characters} onClose={onClose} />} />
             <Route path={'/about'} element={<About />} />
             <Route path={'/detail/:id'} element={<Detail />} />
+            <Route path={'/favorites'} element={<Favorites />} />
          </Routes>
       </div>
 

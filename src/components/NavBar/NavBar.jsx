@@ -15,6 +15,9 @@ const NavBar = (props) => {
         <Link className={styles.link} to={"/about"}>
           About
         </Link>
+        <Link className={styles.link} to={"/favorites"}>
+          Favorites
+        </Link>
       </div>
       <SearchBar onSearch={onSearch} />
     </div>
